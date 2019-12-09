@@ -50,3 +50,5 @@ await fs.writeFile(`screencast.png`, buffer);
 And if I can do something about that or if it is a Puppeteer thing.
 
 ### Resize the window to match the viewport for the screencast one
+
+### Deploy to NPM
