@@ -1,0 +1,9 @@
+{
+  "name": "node-puppeteer-apng",
+  "version": "0.0.0",
+  "dependencies": {
+    "jimp": "^0.9.3",
+    "node-apng": "git+https://github.com/TomasHubelbauer/node-apng.git",
+    "puppeteer": "^2.0.0"
+  }
+}
