@@ -52,3 +52,13 @@ And if I can do something about that or if it is a Puppeteer thing.
 ### Resize the window to match the viewport for the screencast one
 
 ### Deploy to NPM
+
+### Consider if the image could be quantized and paletted programatically
+
+Without shelling out to native binaries.
+Probably the best way to do this would be to study how the quantization and
+palette generation is done in PNG, then scan all the PNGs and collect all the
+colors, quantize them and replace them in the true color PNG, then rewrite all
+the individual PNGs to refer to the same palette, then keep the palette from
+the first PNG knowing the subsequent ones will have correct indices into it as
+well.
