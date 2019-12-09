@@ -44,3 +44,9 @@ await fs.writeFile(`screencast.png`, buffer);
 ### Fix the timestamps in the trace method
 
 ### Fix the flaky custom setup test failing on the play button
+
+### Figure out why the `startScreencast` method has layers shifted
+
+And if I can do something about that or if it is a Puppeteer thing.
+
+### Resize the window to match the viewport for the screencast one
