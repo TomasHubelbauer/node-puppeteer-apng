@@ -8,7 +8,7 @@ problem.
 
 ## Usage and API
 
-`npm install https://github.com/TomasHubelbauer/node-puppeteer-apng`
+`npm install tomashubelbauer/node-puppeteer-apng`
 
 ### Capture a 5 second clip of a webpage by URL
 
