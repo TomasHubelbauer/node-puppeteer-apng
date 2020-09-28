@@ -164,5 +164,5 @@ async function recordUsingTrace(setup) {
 
 function makeApng(buffers, cuts, timestamp) {
   const delays = cuts.reduce((a, c, i) => { a.push(c - (cuts[i - 1] || timestamp)); return a; }, []);
-  return apng(buffers, index => ({ numerator: 1, denominator: 1000 / delays[index] }));
+  return apng(buffers, index => ({ numerator: delays[index], denominator: 1000 }));
 }
